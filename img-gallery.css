@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Noto+Sans+JP&family=Noto+Serif+JP&display=swap');
+
+:root{
+--header-font: 'Cinzel', serif;
+--title-font: 'Noto Serif JP', serif;
+--body-font: 'Noto Sans JP', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 6em;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.slide{
+    display: none;
+    position: relative;
+    margin-top: 6em;
+    margin-left: 10em;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 960px;
+    max-height: 540px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.content-wrapper{
+    background-color: rgb(255, 255, 255, 0.7);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 450px;
+    height: 540px;
+    position: absolute;
+    right: 10em;
+    bottom: 0;
+
+}
+
+#left-arrow{
+    display: block;
+    position: absolute;
+    top: 270px;
+    left: 1.5em;
+}
+
+#right-arrow{
+    display: block;
+    position: absolute;
+    top: 270px;
+    right: 1.5em;
+}
+.active{
+    display: block;
+    position: relative;
+}
+
+.hide{
+    display: none;
+}

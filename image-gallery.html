@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="imagegallery.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+    <title>Image Gallery</title>
+</head>
+<body>
+<header>
+    <h1 id="title">Image Gallery</h1>
+    <h2 id="subtitle">Famous Italian Cities</h2>
+</header>
+    <main>
+    <div id="imggallery" class="container">
+            <div id="slideshow">
+                <i id="left-arrow" class="fas fa-chevron-left fa-3x"></i>
+                <i id="right-arrow" class="fas fa-chevron-right fa-3x"></i>
+                <div id="slidecontrol">
+                <i id="play" class="far fa-play-circle fa-3x"></i>
+                <i id="pause" class="far fa-pause-circle fa-3x"></i>
+                 </div>
+                    <div class="slide first">
+                        <img src="images/rome_1280_720.jpg" alt="Rome">           
+                        <div class="content-wrapper">
+                            <h1>Rome</h1>
+                            <p>Rome is the capital city and a special comune of Italy, as well as the capital of the Lazio region. The city has been a major human settlement for almost three millennia. With 2,860,009 residents in 1,285 km2 (496.1 sq mi),it is also the country's most populated comune. It is the third most populous city in the European Union by population within city limits.</p>
+                        </div>
+                    </div> 
+                    <div class="slide">
+                        <img src="images/milan_1280_720.jpg" alt="Milan">
+                        <div class="content-wrapper">
+                            <h1>Milan</h1>
+                            <p>Milan is a city in northern Italy, capital of Lombardy, and the second-most populous city in Italy after Rome. The city has been recognized as one of the world's four fashion capitals thanks to several international events and fairs. The city is home to two of Europe's most successful football teams, A.C. Milan and F.C. Internazionale, and one of Europe's main basketball teams, Olimpia Milano.</p>
+                        </div>
+                    </div> 
+                    <div class="slide">
+                        <img src="images/florence_1280_720.jpg" alt="Florence">
+                        <div class="content-wrapper">
+                            <h1>Florence</h1>
+                            <p>Florence, capital of Italy’s Tuscany region, is home to many masterpieces of Renaissance art and architecture. One of its most iconic sights is the Duomo, a cathedral with a terracotta-tiled dome engineered by Brunelleschi and a bell tower by Giotto. The Galleria dell'Accademia displays Michelangelo’s “David” sculpture. The Uffizi Gallery exhibits Botticelli’s “The Birth of Venus” and da Vinci’s “Annunciation.”</p>
+                        </div>
+                    </div>
+                <div class="slide">
+                    <img src="images/venice_1280_720.jpg" alt="Venice">
+                    <div class="content-wrapper">
+                        <h1>Venice</h1>
+                        <p>Venice, the capital of northern Italy’s Veneto region, is built on more than 100 small islands in a lagoon in the Adriatic Sea. It has no roads, just canals – including the Grand Canal thoroughfare – lined with Renaissance and Gothic palaces. The central square, Piazza San Marco, contains St. Mark’s Basilica, which is tiled with Byzantine mosaics, and the Campanile bell tower offering views of the city’s red roofs.</p>
+                    </div>
+                </div> 
+                <div class="slide">
+                    <img src="images/vatican_1280_720.jpg" alt="vatican">
+                    <div class="content-wrapper">
+                        <h1>Vatican City</h1>
+                        <p>Vatican City, a city-state surrounded by Rome, Italy, is the headquarters of the Roman Catholic Church. It's home to the Pope and a trove of iconic art and architecture. Its Vatican Museums house ancient Roman sculptures such as the famed “Laocoön and His Sons” as well as Renaissance frescoes in the Raphael Rooms and the Sistine Chapel, famous for Michelangelo’s ceiling.</p>
+                    </div>
+                </div> 
+            </div>
+            <div id="thumbnail-wrapper">
+                <div id="tn1" class="thumbnail">
+                    <img src="images/rome_1280_720.jpg">
+                </div>
+                <div id="tn2" class="thumbnail">
+                    <img src="images/milan_1280_720.jpg" alt="Milan">
+                </div>
+                <div id="tn3" class="thumbnail">
+                    <img src="images/florence_1280_720.jpg" alt="Florence">
+                </div>
+                <div id="tn4" class="thumbnail">
+                    <img src="images/venice_1280_720.jpg" alt="Venice">
+                </div>
+                <div id="tn5" class="thumbnail">
+                    <img src="images/vatican_1280_720.jpg" alt="vatican">
+                </div>
+            </div>
+     
+       </div>
+    
+    </main>
+</body>
+<script src="imageGallery.js"></script>
+</html>
